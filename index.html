@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="bg">
+        <nav>
+            <img src="one.png" alt="">
+            <div id="links">
+                <a href="#">Home</a>
+                <a href="https://github.com/chulbul7061">Github</a>
+                <a href="https://drive.google.com/file/d/1YGMuNlSO_Q3rqwurQ5GL2lgdt2J9D8AV/view">Download_CV</a>
+                <i class="ri-search-line"></i>
+                <i id="menu" class="ri-menu-2-line"></i>
+            </div>
+        </nav>
+        <div id="sections">
+            <img id="splash" src="./rightSplash.png" alt="">
+            <div id="left">
+                <div id="smline"> </div>
+                <h4>Hello,I'm👌</h4>
+                <img src="two.jpg" alt="">
+                <h5>Web designer from<span id="lb">India.</span></h5>
+                <span id="element"></span>
+                
+                <div id="playbtn">
+                    <img src="playButton.png" alt="">
+                    <h5>See my<span class="bold">work profile</span></h5>
+                </div>
+                <div id="contact">
+                    <h3>Contact Me</h3>
+                    <h6>Email:<span>himanshu.12202437@lpu.in</span></h6>
+                    <h6>Contact Number:<span>+918340358451</span> </h6>
+                </div>
+            </div>
+            <div id="right">
+                <img src="./mainImage.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var menu = document.querySelector('#menu');
+        var bg = document.querySelector('#bg');
+
+        menu.addEventListener('click', function () {
+            bg.style.transform = 'scale(.8)';
+            bg.style.borderRadius = '10px';
+            bg.style.boxShadow = '0 150px 45px -100px rgba(0,0,0,0.2)';
+        })
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: [' Front-End ', 'Back-End ', 'Developer !!'],
+            typeSpeed: 90,
+        });
+    </script>
+</body>
+
+</html>

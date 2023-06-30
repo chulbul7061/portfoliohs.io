@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #ececec;
+}
+#bg{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff ;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1).5s;
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 80px;
+    padding: 0 100px;
+   /* background-color: #dadada;*/
+    
+}
+nav img{
+    width: 179px;
+}
+nav #links{
+    display: flex;
+    align-items: center;
+}
+nav #links a{
+    margin-left: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgb(4, 36, 99);
+    font-weight: 700;
+    opacity: .9;
+    letter-spacing: 4px;
+}
+
+nav #links i{
+    margin-left: 50px;
+}
+
+#sections{
+    display: flex;
+    width: 100px;
+    height: calc(100%-80px);
+}
+
+#left{
+    width:50% ;
+    height: 100%;
+    padding: 100px;
+   
+}
+#left #smline{
+    width:90px ;
+    height: 3px;
+    margin-top:100px ;
+    background-color: Black;
+}
+
+#left h4{
+    font-size: 50px;
+    margin-top: 10px;
+}
+#left img{
+    width: 400px;
+    margin-top: 14px;
+}
+#left >h5{
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    margin-top: 2px;
+    opacity: .5;
+   
+    font-weight: 700;
+    color: #13054d;
+}
+#left >h5 span{
+    color: rgb(22, 151, 187);
+}
+
+#playbtn img{
+    width: 130px;
+}
+#playbtn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#playbtn h5{
+    margin-top: -6px;
+    letter-spacing: 10px;
+    opacity: .9;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.bold{
+    font-weight: 700;
+
+}
+#contact{
+    margin-top: 130px;
+}
+#contact h3{
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 12px;
+    opacity: .8;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+#contact h6{
+    margin-top: 5px;
+    font-size: 12px;
+}
+#contact h6 span{
+    color:rgb(25, 179, 221);
+}
+#right{
+    width: 50%;
+    height: 100%;
+    margin-left: 250px;
+}
+
+#splash{
+    position: absolute;
+    left: -60px;
+    
+    
+}
+
+#element {
+    color: rgb(9, 107, 134);
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    margin-top: 2px;
+    opacity: .5;
+   
+    font-weight: 700;
+    
+}
+
